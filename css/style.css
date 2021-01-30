@@ -100,7 +100,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+ 
 }
 
 .paralax-mf {
@@ -624,8 +624,8 @@ a:hover {
 
 .intro .intro-title {
   color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 0.5rem;
 }
 
 .intro .intro-subtitle {
@@ -1215,7 +1215,7 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 1.55rem;
   }
 
   .intro .intro-subtitle {
