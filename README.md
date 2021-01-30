@@ -1,1 +1,1 @@
-# [jankipacha.com](https://jankipanchal.com)
+# [jankipacha.com](https://www.jankipanchal.com/)
