@@ -1215,11 +1215,14 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    
+    font-family: "Times New Roman", Times, serif;
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    
+    font-size: 1.45rem;
+    font-family: "Times New Roman", Times, serif;
   }
 
   .intro-single .intro-title {

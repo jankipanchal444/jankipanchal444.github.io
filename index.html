@@ -26,7 +26,35 @@
   <link href="css/style.css" rel="stylesheet">
 
 
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbS-N8mYoKohXzGbTjpWh50_Aj4_UB9Wc&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 700PX;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+     
+    </style>
+    <script>
+      let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: -34.397, lng: 150.644 },
+          zoom: 8,
+        });
+      }
+    </script>
 </head>
+
+
 
 <body id="page-top">
 
@@ -74,20 +102,20 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-
-          <p class="intro-subtitle"><span class="text-slider-items"></span>The path of glory begins with the faith
-            inside you.</span><strong class="text-slider"></strong></p>
-          <h1 class="intro-title mb-4">- Janki Panchal</h1>
+          <h1 class="intro-title mb-4">The path of glory begins with the faith
+            inside you.</h1>
+          <p class="intro-subtitle"><span class="text-slider-items"></span>- Janki Panchal</span><strong class="text-slider"></strong></p>
+          
           <p><span class="text-slider-items"></span>
-            <a href="#TAROT-CARD-READING">Tarot Card Reading </a>|
-            <a href="#VASTU-CONSULTANT"> Vastu Consultant </a>|
-            <a href="#PRANIC-HEALER"> Pranic Healer </a> |
-            <a href="#CRYSTAL-THERAPIST">Crystal Therapist </a> |
-            <a href="#ASTROLOGER">Asrologer </a> |
-            <a href="#MOTIVATIONAL-SPEAKER">Motivational Speaker </a>|
-            <a href="#LIFE-COACH">Life Coach </a> |
+            <a  style="color:rgb(255, 255, 255);"  href="#TAROT-CARD-READING">Tarot Card Reading </a>|
+            <a  style="color:rgb(255, 255, 255);" href="#VASTU-CONSULTANT"> Vastu Consultant </a>|
+            <a  style="color:rgb(255, 255, 255);" href="#PRANIC-HEALER"> Pranic Healer </a> |
+            <a  style="color:rgb(255, 255, 255);" href="#CRYSTAL-THERAPIST">Crystal Therapist </a> |
+            <a  style="color:rgb(255, 255, 255);" href="#ASTROLOGER">Asrologer </a> |
+            <a  style="color:rgb(255, 255, 255);" href="#MOTIVATIONAL-SPEAKER">Motivational Speaker </a>|
+            <a  style="color:rgb(255, 255, 255);" href="#LIFE-COACH">Life Coach </a> |
             <br />
-            <a href="#NEURO-LINGUISTIC-PROGRAMMING-PRACTITIONER"> Neuro Lingustic Programming Practitioner</a>
+            <a  style="color:rgb(255, 255, 255);" href="#NEURO-LINGUISTIC-PROGRAMMING-PRACTITIONER"> Neuro Lingustic Programming Practitioner</a>
             </span><strong class="text-slider"></strong>
           </p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
@@ -337,7 +365,7 @@
         <div class="col-sm-3 col-lg-3">
           <div class="counter-box pt-4 pt-md-0">
             <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+              <span class="ico-circle"><i class="ion-home"></i></span>
             </div>
             <div class="counter-num">
               <p class="counter">300</p>
@@ -375,7 +403,13 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Osho Zen Tarot</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Coming soon..</span>  <span class="w-date"></span>
+                      <span class="w-ctegory">
+                        <li> Two days practical workshop.</li>
+                        <li>Duration : 18 hours.<br/>   ( Each day 9 hours )</li>
+                        <li>Non residential .</li>
+                        <li>Each day Breakfast,<br/> Lunch & High tea will be served . </li>
+                        <li>Followup session will be taken online/offline after workshop in duration within 3 months .</li>
+                      </span>  <span class="w-date"></span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -399,7 +433,13 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Rider waite tarot</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Coming soon...<span class="w-date"></span>
+                      <span class="w-ctegory">
+                        <li> Two days practical workshop.</li>
+                        <li>Duration : 18 hours.<br/>   ( Each day 9 hours )</li>
+                        <li>Non residential .</li>
+                        <li>Each day Breakfast,<br/> Lunch & High tea will be served . </li>
+                        <li>Followup session will be taken online/offline after workshop in duration within 3 months .</li>
+                        <span class="w-date"></span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -421,9 +461,15 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <h2 class="w-title">Lenormand Cards </h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">
+                        <li> Two days practical workshop.</li>
+                        <li>Duration : 18 hours.<br/>   ( Each day 9 hours )</li>
+                        <li>Non residential .</li>
+                        <li>Each day Breakfast,<br/> Lunch & High tea will be served . </li>
+                        <li>Followup session will be taken online/offline after workshop in duration within 3 months .</li>
+                      </span> <span class="w-date"></span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -445,9 +491,14 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <h2 class="w-title">Crystal Therapy</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">
+                        <li> Two days practical workshop.</li>
+                        <li>Duration : 12 hours.<br/>   ( Each day 6 hours )</li>
+                        <li>Non residential .</li>
+                        <li>Each day Breakfast,<br/> Lunch & High tea will be served . </li>
+                        <li>Followup session will be taken online/offline after workshop in duration within 3 months .</li></span>  <span class="w-date"></span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -469,9 +520,15 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <h2 class="w-title">Angel Therapy</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">
+                        <li> One day practical workshop.</li>
+                        <li>Duration : 8 hours.</li>
+                        <li>Non residential .</li>
+                        <li>Breakfast,<br/> Lunch & High tea will be served . </li>
+                        <li>Followup session will be taken online/offline after workshop in duration within 1 month.</li>
+                      </span>  <span class="w-date"></span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -493,9 +550,14 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
+                    <h2 class="w-title">Transform Your Life</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                      <span class="w-ctegory">
+                        <li>One day practical workshop.</li>
+                        <li>Duration : 8 hours.</li>
+                        <li>Non residential .</li>
+                        <li>Breakfast,Lunch & High tea will be served . </li>
+                        <li>Followup session will be taken online/offline after workshop in duration within 1 month.</li></span><span class="w-date"></span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -524,20 +586,19 @@
             <div class="testimonial-box">
               <div class="author-test">
                 <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Xavi Alonso</span>
+                <span class="author">Janki panchal</span>
               </div>
               <div class="content-test">
                 <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
+                  “Finding the right direction at the right time is the key to a successful life.”
                 </p>
                 <span class="comit"><i class="fa fa-quote-right"></i></span>
               </div>
             </div>
-            <div class="testimonial-box">
+            <!-- <div class="testimonial-box">
               <div class="author-test">
                 <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Marta Socrate</span>
+                <span class="author">Janki Panchal</span>
               </div>
               <div class="content-test">
                 <p class="description lead">
@@ -545,7 +606,7 @@
                   consectetur adipiscing elit.
                 </p>
                 <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -560,10 +621,10 @@
         <div class="col-sm-12">
           <div class="title-box text-center">
             <h3 class="title-a">
-              Blog
+              Videos
             </h3>
             <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              
             </p>
             <div class="line-mf"></div>
           </div>
@@ -572,38 +633,29 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
+            <!-- <div class="card-img">
+              <a href="blog-single.html"></a>
+              <iframe width="100%" height="120%" src="https://www.youtube.com/embed/I2BdHFdW344" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
                 <div class="card-category">
-                  <h6 class="category">Travel</h6>
+                  <h6 class="category">Traot Card </h6>
                 </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
+              </div> -->
+              
+              
+               
+              
             </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
+            
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
+          <iframe width="100%" height="20%" src="https://www.youtube.com/embed/I2BdHFdW344" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+            
+          <!-- <div class="card-img">
               <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
@@ -631,9 +683,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
+        </div> -->
+        <!--<div class="col-md-4">
+           <div class="card card-blog">
             <div class="card-img">
               <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
             </div>
@@ -661,7 +713,7 @@
                 <span class="ion-ios-clock-outline"></span> 10 min
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -678,47 +730,14 @@
             <div id="contact" class="box-shadow-full">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
+                  <div id="map"></div>
                   <div>
+                    
                     <form action="" method="post" role="form" class="contactForm">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                              data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                              data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                              data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
-                              data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
+                        
                       </div>
                     </form>
                   </div>
@@ -726,28 +745,25 @@
                 <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
-                      Get in Touch
+                      Get in Touch 
                     </h5>
                   </div>
                   <div class="more-info">
                     <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore?
+                      
                     </p>
                     <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                      <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                      <li><span class="ion-email"></span> contact@example.com</li>
+                      <li><span class="ion-ios-location"></span> 130, Gujarat Housing Board, College Road, Bilimora, 396 321</li>
+                      <li><span class="ion-ios-telephone"></span>+91 99746 56444</li>
+                      <li><span class="ion-email"></span>jankipanchal44488@gmail.com</li>
                     </ul>
                   </div>
                   <div class="socials">
                     <ul>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
+                      <li><a href="https://www.facebook.com/janki.panchal.444"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/tarot_expert_janki"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href="https://www.youtube.com/channel/UC7c9prWwuP7dAbwKgCVTwzA"><span class="ico-circle"><i class="ion-social-youtube"></i></span></a></li>
+                      <li><a href="https://wa.me/919974656444"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
                     </ul>
                   </div>
                 </div>
@@ -786,7 +802,7 @@
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
+  <!-- <script src="lib/popper/popper.min.js"></script> -->
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/counterup/jquery.waypoints.min.js"></script>
@@ -799,7 +815,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  
 </body>
 
 </html>
