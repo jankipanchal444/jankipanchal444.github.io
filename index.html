@@ -28,28 +28,7 @@
 
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbS-N8mYoKohXzGbTjpWh50_Aj4_UB9Wc&callback=initMap&libraries=&v=weekly"
-    defer></script>
-  <style type="text/css">
-    /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-    #map {
-      height: 700PX;
-    }
 
-    /* Optional: Makes the sample page fill the window. */
-  </style>
-  <script>
-    let map;
-
-    function initMap() {
-      map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: -34.397, lng: 150.644 },
-        zoom: 8,
-      });
-    }
-  </script>
 </head>
 
 
@@ -82,6 +61,9 @@
             <a class="nav-link js-scroll" href="#work">WORKSHOPS</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">WORKSHOPS</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll" href="#Videos">Videos</a>
           </li>
           <li class="nav-item">
@@ -103,10 +85,10 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">The path of glory begins with the faith
+          <h1 style="margin: 0px;" class="intro-title mb-4">The path of glory begins with the faith
             inside you.</h1>
-          <p class="intro-subtitle"><span class="text-slider-items"></span>- Janki Panchal</span><strong
-              class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items" style="margin-top: 0%;"></span>- Janki
+            Panchal</span><strong class="text-slider"></strong></p>
 
           <p><span class="text-slider-items"></span>
             <a style="color:rgb(255, 255, 255);" href="#TAROT-CARD-READING">Tarot Card Reading </a>|
@@ -169,10 +151,12 @@
                   being a part of spiritual event name of Spiritual Togetherness in Bhavnagar.
                   In September 2019, she was honoured by Smt. Shalini Agarwal (IAS, Collector of Vadodara) for
                   contributing her knowledge in spiritual event name of Spiritual Togetherness in Vadodara.
-                  
-                  <p style="text-align: center;"><b>“Every soul is god's particle, to activate it just requires the right amount of energy."</b>
-                  <br/>
-                    -Janki Panchal</p>
+
+                <p style="text-align: center;"><b>“Every soul is god's particle, to activate it just requires the right
+                    amount of energy."</b>
+                  <br />
+                  -Janki Panchal
+                </p>
                 </p>
               </div>
             </div>
@@ -588,6 +572,80 @@
     </div>
   </section>
   <!--/ Section Portfolio End /-->
+  <!--/ Section Services Star /-->
+  <section id="consultation" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Consultation
+            </h3>
+
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Tarot Reading</h2>
+              <p class="s-description text-center">
+
+                30 minutes session : 2500/-
+                <br />
+                60 minutes session : 5000/-
+                <br />
+                ( <a href="tel:+91 7435850445">On call</a> or <a href="https://wa.me/917435850445?text=Hello%20Janki%2C%0AI%20want%20to%20consult%20you..!!">WhatsApp</a>> )
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Pranic Healing</h2>
+              <p class="s-description text-center">
+                Single session :  700/-
+                <br />
+                30 days sessions : 15,000/-
+                <br />
+                Healing session duration depends on Physical, Psychological & Emotional Diseases.
+                (Distance Healing)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-home"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Vastu consultation</h2>
+              <p class="s-description text-center">
+
+                Vastu for Home : 3000 /- .
+                <br />
+                Vastu for Office : 5000/- .
+                <br />
+                Vastu for Factory : 10,000 /- .
+                <br />
+                Travel and Stay will be charged extra for outstation visits as per actuals .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!--/ Section Testimonials Star /-->
   <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
@@ -737,7 +795,7 @@
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
+            <a href="./img/i-1.jpg">
               <img src="./img/i-1.jpg" alt="Janki Image 1" width="600" height="400">
             </a>
             <div class="desc">Tarot Expert Par Excellence Award </div>
@@ -747,16 +805,16 @@
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-2.jpg">
               <img src="./img/i-2.jpg" alt="Janki Image 2" width="600" height="400">
             </a>
-            <div class="desc">With Nastur Bejan Daruwala  </div>
+            <div class="desc">With Nastur Bejan Daruwala </div>
           </div>
         </div>
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-">
               <img src="./img/i-3.jpg" alt="Janki Image 2" width="600" height="400">
             </a>
             <div class="desc">With IAS Mrs.Shalini Agarwal</div>
@@ -765,7 +823,7 @@
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-4.jpg">
               <img src="./img/i-4.jpg" alt="Janki Image 4" width="600" height="400">
             </a>
             <div class="desc">With Nastur Bejan Daruwala</div>
@@ -773,7 +831,7 @@
         </div>
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-5.jpg">
               <img src="./img/i-5.jpg" alt="Janki Image 1" width="600" height="400">
             </a>
             <div class="desc">With BJP President Jitubhai Vaghani</div>
@@ -783,7 +841,7 @@
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-6.jpg">
               <img src="./img/i-6.jpg" alt="Janki Image 2" width="600" height="400">
             </a>
             <div class="desc">Tarot Reading with IAS Mrs.Shalini Agarwal </div>
@@ -792,7 +850,7 @@
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-7.jpg">
               <img src="./img/i-7.jpg" alt="Janki Image 2" width="600" height="400">
             </a>
             <div class="desc">Spiritual Togetherness Event at Bhavnagar</div>
@@ -801,7 +859,7 @@
 
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="">
+            <a href="./img/i-8.jpg">
               <img src="./img/i-8.jpg" alt="Janki Image 4" width="600" height="400">
             </a>
             <div class="desc">Spiritual Togetherness Event at Vadodara</div>
@@ -820,43 +878,42 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row"></div>
-     
-                <div class="col-md-6"></div>
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
 
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 130, Gujarat Housing Board,
-                      <li style="padding-left: 25px;">College Road,</li>
-                      <li style="padding-left: 25px;"> Bilimora, 396 321.</li>
-                      <li><span class="ion-ios-telephone"></span>+91 99746 56444</li>
-                      <li><span class="ion-email"></span>jankipanchal44488@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
+          <div id="contact" class="box-shadow-full">
 
-                      <li><a href="https://www.facebook.com/janki.panchal.444"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href="https://www.instagram.com/tarot_expert_janki"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href="https://www.youtube.com/channel/UC7c9prWwuP7dAbwKgCVTwzA"><span class="ico-circle"><i class="ion-social-youtube"></i></span></a></li>
-                      <li><a href="https://wa.me/917435850445"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div class="title-box-2 pt-4 pt-md-0">
+              <h5 class="title-left">
+                Get in Touch
+              </h5>
+            </div>
+            <div class="more-info">
+              <p class="lead">
+
+              </p>
+              <ul class="list-ico">
+                <li><span class="ion-ios-location"></span> 130, Gujarat Housing Board,
+                <li style="padding-left: 25px;">College Road,</li>
+                <li style="padding-left: 25px;"> Bilimora, 396 321.</li>
+                <li><span class="ion-ios-telephone"></span>+91 99746 56444</li>
+                <li><span class="ion-email"></span>jankipanchal44488@gmail.com</li>
+              </ul>
+            </div>
+            <div class="socials">
+              <ul>
+                <li><a href="https://www.facebook.com/janki.panchal.444"><span class="ico-circle"><i
+                        class="ion-social-facebook"></i></span></a></li>
+                <li><a href="https://www.instagram.com/tarot_expert_janki"><span class="ico-circle"><i
+                        class="ion-social-instagram"></i></span></a></li>
+                <li><a href="https://www.youtube.com/channel/UC7c9prWwuP7dAbwKgCVTwzA"><span class="ico-circle"><i
+                        class="ion-social-youtube"></i></span></a></li>
+                <li><a href="https://wa.me/917435850445"><span class="ico-circle"><i
+                        class="ion-social-whatsapp"></i></span></a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
     <footer>
       <div class="container">
@@ -882,6 +939,7 @@
   <!--/ Section Contact-footer End /-->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
 
 
   <!-- JavaScript Libraries -->
