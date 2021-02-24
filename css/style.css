@@ -596,11 +596,14 @@ a:hover {
   font-weight: 300;
   font-size: 1.5rem;
   margin-bottom: 0px;
+  font-family: "myfont"
+  
 }
 
 .intro .intro-subtitle {
   font-size: 1.2rem;
   font-weight: 300;
+  font-family: "myfont"
 }
 
 .intro .text-slider-items {
