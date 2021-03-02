@@ -170,7 +170,7 @@ a:hover {
   position: absolute;
   height: 3px;
   background-color: #A93226;
-  width: 290px;
+  width: 190px;
   bottom: -12px;
 }
 
@@ -181,10 +181,14 @@ a:hover {
 }
 
 .box-shadow-full {
-  padding: 5rem 1.25rem;
+
   position: relative;
+  text-align:center;
   background-color: #fff;
-  margin-bottom: 3rem;
+  align-items: center;
+  border: 1px solid #c3c3c3;
+  align-content: center;
+  
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
